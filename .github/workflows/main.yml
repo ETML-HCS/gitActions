@@ -9,4 +9,5 @@ jobs :
       run: echo "Hello !!!"
     - name : "LS"
       run: ls -l
-    
+    - name: "use_action"
+      uses: actions/checkout@V4
