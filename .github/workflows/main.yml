@@ -11,3 +11,5 @@ jobs :
       run: ls -l
     - name: "use_action"
       uses: actions/checkout@v4
+    - name: "LS"
+      run: ls -l
