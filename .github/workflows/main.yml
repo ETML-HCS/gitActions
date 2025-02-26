@@ -7,4 +7,6 @@ jobs :
     steps:
     - name : Hello
       run: echo "Hello !!!"
+    - name : "LS"
+      run: ls -l
     
